@@ -7,7 +7,7 @@ export default function Footer(){
         github link
       </div>
       <div>
-        linked in link
+        linkedin link
       </div>
     </div>
   );
