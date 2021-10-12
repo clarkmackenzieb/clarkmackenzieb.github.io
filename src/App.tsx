@@ -8,24 +8,24 @@ import About from './pages/about-page/About';
 import Home from './pages/home-page/Home';
 import Blog from './pages/blog-page/Blog';
 import Header from './components/header/Header';
+import './styles.css';
 
 function App() {
   return (
-    <Router>
-      <Header/>
-      <Switch>
-        <Route path="/">
-          <Home/>
-        </Route>
-
-        <Route path="/about">
-          <About/>
-        </Route>
-        <Route path="/blog">
-          <Blog/>
-        </Route>
-      </Switch>
-    </Router>
+      <Router>
+        <Header/>
+        <Switch>
+          <Route path="/about">
+            <About/>
+          </Route>
+          <Route path="/blog">
+            <Blog/>
+          </Route>
+          <Route path="/">
+            <Home/>
+          </Route>
+        </Switch>
+      </Router>
   );
 }
 
