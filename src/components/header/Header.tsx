@@ -8,8 +8,8 @@ const StyledHeader = styled.div`
   display: flex;
   flexDirection: row;
   align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
   justify-content: space-between;
 `;
 
