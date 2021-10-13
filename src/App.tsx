@@ -8,6 +8,7 @@ import About from './pages/about-page/About';
 import Home from './pages/home-page/Home';
 import Blog from './pages/blog-page/Blog';
 import Header from './components/header/Header';
+import Post from './pages/post/Post';
 import './styles.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Router>
         <Header useMobileLayout={useMobileLayout}/>
         <Switch>
+          <Route path="/blog/:title" children={<Post/>}/>
           <Route path="/about">
             <About/>
           </Route>
