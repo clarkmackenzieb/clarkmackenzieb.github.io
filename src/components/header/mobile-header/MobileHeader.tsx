@@ -1,22 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
-import { THEME_COLORS } from '../../styles/theme';
-import MobileHeader from './mobile-header/MobileHeader';
+import { THEME_COLORS } from '../../../styles/theme';
 
 const StyledHeader = styled.div`
+  background-color: ${THEME_COLORS.russianViolet};
   display: flex;
   flexDirection: row;
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
-  justify-content: space-between;
 `;
 
 const StyledText = styled.p`
-  color: ${THEME_COLORS.russianViolet};
+  color: white;
   font-size: 18px;
-  font-weight: bold;
 `
 
 const StyledList = styled.ul`
@@ -25,6 +23,7 @@ const StyledList = styled.ul`
   align-items: center;
   justify-content: space-between;
   margin-right: 8px;
+  max-width: 400px;
 `
 
 const StyledListItem = styled.li`
@@ -32,19 +31,14 @@ const StyledListItem = styled.li`
 `
 
 const StyledNav = styled.nav`
-  width: 50%;
+  width: 100%;
 `
 
-export default function Header(){
-  const useMobileLayout = window && window.innerWidth < 500;
-
-  if (useMobileLayout) {
-    return <MobileHeader/>
-  }
+export default function MobileHeader(){
   return (
     <StyledHeader>
       <StyledText>
-        {`< Mackenzie Clark />`}
+        {`<MC/>`}
       </StyledText>
       <StyledNav>
         <StyledList>
