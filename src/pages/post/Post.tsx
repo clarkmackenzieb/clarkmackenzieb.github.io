@@ -4,10 +4,21 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { postList } from '../../posts/index';
 import { useParams } from 'react-router-dom'; 
+import styled from 'styled-components';
+
+const StyledPostContainer = styled.div`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: magenta;
+`
 
 export default function Post(){
   const { title } = useParams<{ title: string }>();
-console.log("ttitle", title)
+
   if(!title){
     return renderError();
   }
@@ -21,17 +32,14 @@ console.log("ttitle", title)
   }
 
   return(
-    <div>
-      <div>
-        posty
-      </div>
+    <StyledPostContainer>
       <ReactMarkdown children={postMD.content} remarkPlugins={[remarkGfm]}/>
-    </div>
+    </StyledPostContainer>
   );
 }
 
 function renderError(){
   return (
-    <div> Uh oh. How did you get here? </div>
+    <StyledPostContainer> Uh oh. How did you get here? </StyledPostContainer>
   );
 }
