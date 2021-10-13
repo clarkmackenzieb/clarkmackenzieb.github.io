@@ -5,7 +5,7 @@ export default function About(){
   return(
     <div>
       <div>
-        about me
+         About page under construction
       </div>
     </div>
   );

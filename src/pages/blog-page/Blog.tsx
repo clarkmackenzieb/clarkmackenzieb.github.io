@@ -5,7 +5,7 @@ export default function Blog(){
   return(
     <div>
       <div>
-        blog page
+        Blog under construction
       </div>
     </div>
   );

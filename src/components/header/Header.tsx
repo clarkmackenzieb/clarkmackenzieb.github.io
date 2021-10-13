@@ -35,16 +35,14 @@ const StyledNav = styled.nav`
   width: 50%;
 `
 
-export default function Header(){
-  const useMobileLayout = window && window.innerWidth < 500;
-
+export default function Header({ useMobileLayout }:{ useMobileLayout: boolean }){
   if (useMobileLayout) {
     return <MobileHeader/>
   }
   return (
     <StyledHeader>
-      <StyledText>
-        {`< Mackenzie Clark />`}
+      <StyledText aria-hidden="true">
+        {`< MC />`}
       </StyledText>
       <StyledNav>
         <StyledList>

@@ -11,9 +11,10 @@ import Header from './components/header/Header';
 import './styles.css';
 
 function App() {
+  const useMobileLayout = window && window.innerWidth < 500;
   return (
       <Router>
-        <Header/>
+        <Header useMobileLayout={useMobileLayout}/>
         <Switch>
           <Route path="/about">
             <About/>
