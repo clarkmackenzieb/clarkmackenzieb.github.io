@@ -43,10 +43,6 @@ const StyledBackgroundText = styled.p`
   font-weight: bold;
 `
 
-const StyledStrikethrough = styled.span`
-  text-decoration: line-through;
-`
-
 const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -86,7 +82,7 @@ export default function Home(){
       <StyledTitle className="title">
         <StyledHeader>Mackenzie</StyledHeader>
         <StyledBackgroundText>
-        UI Engineer. Accessibility Advocate. React <StyledStrikethrough>Connesuir</StyledStrikethrough> <StyledStrikethrough>Connesior</StyledStrikethrough> Connoisseur. Typo Queen.
+          UI Engineer. Accessibility Advocate. React Connoisseur. Typo Queen.
         </StyledBackgroundText>
       </StyledTitle>
       <StyledImgContainer>

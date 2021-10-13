@@ -37,7 +37,7 @@ const StyledNav = styled.nav`
 export default function MobileHeader(){
   return (
     <StyledHeader>
-      <StyledText>
+      <StyledText aria-hidden="true">
         {`<MC/>`}
       </StyledText>
       <StyledNav>
