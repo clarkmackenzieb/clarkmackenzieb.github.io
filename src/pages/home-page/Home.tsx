@@ -19,7 +19,7 @@ const StyledTitle = styled.div`
 `
 
 const StyledHeader = styled.h1`
-  background-image: url(https://media.giphy.com/media/JQcq1C3eC6fIHMrtTY/giphy-downsized-large.gif);
+  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
@@ -31,7 +31,7 @@ const StyledHeader = styled.h1`
 `
 
 const StyledBackgroundText = styled.p`
-  background-image: url(https://media.giphy.com/media/JQcq1C3eC6fIHMrtTY/giphy-downsized-large.gif);
+  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
