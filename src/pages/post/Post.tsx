@@ -13,7 +13,6 @@ const StyledPostContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: magenta;
 `
 
 export default function Post(){
