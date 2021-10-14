@@ -1,24 +1,65 @@
 import React from 'react';
 import { postList } from '../../posts/index';
 import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import { THEME_COLORS } from '../../styles/theme';
+
+const StyledContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 700px;
+  color: ${THEME_COLORS.russianViolet}
+`
+
+const StyledListItem = styled.li`
+  list-style: none;
+`;
+
+const StyledPostHeader = styled.h2`
+  font-size: 24px;
+  color: ${THEME_COLORS.russianViolet};
+`
+
+const StyledText = styled.p`
+  color: ${THEME_COLORS.russianViolet};
+  font-size: 18px;
+`
 
 export default function Blog(){
-  if(postList.length === 0){
-    return <div>No posts yet!</div>;
+  if(postList && postList.length === 0){
+    return renderZeroState();
   }
   const list = postList.map((post) => {
     return (
-      <li>
-        <Link to={`/blog/${post.title}`}>
-          {post.title}
+      <StyledListItem key={post.title}>
+        <Link style={{ textDecoration: 'none'}} to={`/blog/${post.title}`}>
+          <StyledPostHeader>{post.title}</StyledPostHeader>
+          <StyledText>
+            {post.date}
+          </StyledText>
+          <StyledText>
+            {post.desc}
+          </StyledText>
         </Link>
-      </li>
+      </StyledListItem>
     );
   });
 
   return (
-    <ul>
-      {list}
-    </ul>
+    <StyledContainer>
+      <h1>Blog Posts</h1>
+      <ul>
+        {list}
+      </ul>
+    </StyledContainer>
   );
 }
+
+function renderZeroState(){
+  return (
+    <StyledContainer>
+      <h1>No posts yet! Check back soon.</h1>
+    </StyledContainer>
+  );
+};

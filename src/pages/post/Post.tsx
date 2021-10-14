@@ -32,7 +32,7 @@ export default function Post(){
 
   return(
     <StyledPostContainer>
-      <ReactMarkdown children={postMD.content} remarkPlugins={[remarkGfm]}/>
+      <ReactMarkdown children={postMD.markdown} remarkPlugins={[remarkGfm]}/>
     </StyledPostContainer>
   );
 }
