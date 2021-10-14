@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -34,7 +34,7 @@ function App() {
   const useMobileLayout = window && window.innerWidth < 500;
   return (
     <StyledAppContainer>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <StyledHeaderContainer useMobileLayout={useMobileLayout}/>
         <StyledContentContainer>
           <Switch>
