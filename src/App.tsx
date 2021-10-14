@@ -34,7 +34,7 @@ function App() {
   const useMobileLayout = window && window.innerWidth < 500;
   return (
     <StyledAppContainer>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <StyledHeaderContainer useMobileLayout={useMobileLayout}/>
         <StyledContentContainer>
           <Switch>
