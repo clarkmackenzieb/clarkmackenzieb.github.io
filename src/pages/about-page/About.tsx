@@ -31,7 +31,7 @@ export default function About(){
         So after a small quarter-life crisis, I entered DevMountain in late 2017. After graduating I was hired on as a contractor mentoring students and working on internal software. After that stint ended, I began working at my current job, Match.com. Four years later, I'm still vibing here.
       </StyledText>
       <StyledText>
-        I wish I had more interesting things to put on here, but my story is similar to a lot of people. As the technology sector boomed, people took advantage of the bootcamps springing up. For better or for worse, it offered a quick entry point to a lucrative career path. Some find more success than others, and I was in the right place at the right time to jump into Match. Others aren't so lucky.
+        I wish I had more interesting things to put on here, but my story is similar to a lot of people. As the technology sector boomed, people took advantage of the bootcamps springing up. For better or for worse, it offered a quick entry point to a lucrative career path. Some find more success than others. Others aren't so lucky.
       </StyledText>
       <h2>The Present</h2>
       <StyledText>
