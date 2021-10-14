@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { THEME_COLORS } from '../../styles/theme';
 
 const StyledContainer = styled.div`
   display: flex;
@@ -7,10 +8,11 @@ const StyledContainer = styled.div`
   justify-contents: center;
   margin-left: 100px;
   width: 700px;
+  color: ${THEME_COLORS.russianViolet}
 `
 
 const StyledText = styled.p`
-font-size: 18px;
+  font-size: 18px;
 `
 
 export default function About(){
@@ -23,7 +25,7 @@ export default function About(){
         The Past
       </h2>
       <StyledText>
-        Right now, I'm a software engineer and I think it's StyledTextretty cool, but I'll come out and say it: I don't have a formal CS degree. I wasn't interested in STEM in college, despite STEM having a big focus in my family. I'm a bootcamp babe. When I graduated, I realized that Tennessee (where I was living at the time) doesn't ahve too many international options, unless you're going into excel sheet fun. It turns out the only real use for my degree was going abroad.
+        Right now, I'm a software engineer and I think it's pretty cool, but I'll come out and say it: I don't have a formal CS degree. I wasn't interested in STEM in college, despite STEM having a big focus in my family. I'm a bootcamp babe. When I graduated, I realized that Tennessee (where I was living at the time) doesn't ahve too many international options, unless you're going into excel sheet fun. It turns out the only real use for my degree was going abroad.
       </StyledText>
       <StyledText>
         So after a small quarter-life crisis, I entered DevMountain in late 2017. After graduating I was hired on as a contractor mentoring students and working on internal software. After that stint ended, I began working at my current job, Match.com. Four years later, I'm still vibing here.
