@@ -11,6 +11,7 @@ const StyledImage = styled.img`
 `;
 
 const StyledContainer = styled.div`
+  margin-top: 40px;
   margin-left: 40px;
   padding-bottom: 20px;
   width: 15%;
