@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://clarkmackenzieb.github.io/static/css/main.80c8c6cc.chunk.css",
-    "main.js": "https://clarkmackenzieb.github.io/static/js/main.87a3a7b0.chunk.js",
-    "main.js.map": "https://clarkmackenzieb.github.io/static/js/main.87a3a7b0.chunk.js.map",
+    "main.js": "https://clarkmackenzieb.github.io/static/js/main.b2c71202.chunk.js",
+    "main.js.map": "https://clarkmackenzieb.github.io/static/js/main.b2c71202.chunk.js.map",
     "runtime-main.js": "https://clarkmackenzieb.github.io/static/js/runtime-main.2e15a18c.js",
     "runtime-main.js.map": "https://clarkmackenzieb.github.io/static/js/runtime-main.2e15a18c.js.map",
     "static/js/2.bf0bd4a9.chunk.js": "https://clarkmackenzieb.github.io/static/js/2.bf0bd4a9.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.2e15a18c.js",
     "static/js/2.bf0bd4a9.chunk.js",
     "static/css/main.80c8c6cc.chunk.css",
-    "static/js/main.87a3a7b0.chunk.js"
+    "static/js/main.b2c71202.chunk.js"
   ]
 }
