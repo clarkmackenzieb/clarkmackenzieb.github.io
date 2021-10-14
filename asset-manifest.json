@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/clarkmackenzieb.github.io/static/css/main.80c8c6cc.chunk.css",
+    "main.js": "/clarkmackenzieb.github.io/static/js/main.1ae63bca.chunk.js",
+    "main.js.map": "/clarkmackenzieb.github.io/static/js/main.1ae63bca.chunk.js.map",
+    "runtime-main.js": "/clarkmackenzieb.github.io/static/js/runtime-main.a6df0d97.js",
+    "runtime-main.js.map": "/clarkmackenzieb.github.io/static/js/runtime-main.a6df0d97.js.map",
+    "static/js/2.e499a95c.chunk.js": "/clarkmackenzieb.github.io/static/js/2.e499a95c.chunk.js",
+    "static/js/2.e499a95c.chunk.js.map": "/clarkmackenzieb.github.io/static/js/2.e499a95c.chunk.js.map",
+    "index.html": "/clarkmackenzieb.github.io/index.html",
+    "static/css/main.80c8c6cc.chunk.css.map": "/clarkmackenzieb.github.io/static/css/main.80c8c6cc.chunk.css.map",
+    "static/js/2.e499a95c.chunk.js.LICENSE.txt": "/clarkmackenzieb.github.io/static/js/2.e499a95c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6df0d97.js",
+    "static/js/2.e499a95c.chunk.js",
+    "static/css/main.80c8c6cc.chunk.css",
+    "static/js/main.1ae63bca.chunk.js"
+  ]
+}
