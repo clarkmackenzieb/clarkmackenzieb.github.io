@@ -36,13 +36,13 @@ export default function Footer(){
       <Link to="https://github.com/clarkmackenzieb" style={{ textDecoration: "none" }}>
         <StyledContentContainer>
           <StyledImage alt="github" src={octocat}/>
-          <StyledText>Catch me on github</StyledText>
+          <StyledText>Catch me on GitHub</StyledText>
         </StyledContentContainer>
       </Link>
       <Link to="https://www.linkedin.com/in/clarkmackenzieb/" style={{ textDecoration: "none" }}>
         <StyledContentContainer>
           <StyledImage alt="linked in"src={linkedInIcon}/>
-          <StyledText>Peek my linked in</StyledText>
+          <StyledText>Peek my LinkedIn</StyledText>
         </StyledContentContainer>
       </Link>
     </StyledContainer>
