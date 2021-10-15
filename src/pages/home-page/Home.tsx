@@ -75,7 +75,6 @@ const StyledImgContainer = styled.div`
 
 
 export default function Home(){
-
   return(
     <StyledContainer>
       <StyledTitle className="title">
