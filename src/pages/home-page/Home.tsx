@@ -1,5 +1,4 @@
 import React from 'react';
-// import selfie from '../../pics/self-pic.png';
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
 import { THEME_COLORS } from '../../styles/theme';
@@ -90,7 +89,7 @@ export default function Home(){
       </StyledImgContainer>
       <StyledSection>
         <StyledText>
-          Hey, it's me. Welcome to my site. Head to the <Link to="/about">about page</Link> to learn a bit more about me and to connect. Visit my <Link to="/blog">blog</Link> to see my tired takes on life, developement, and working at a tech company. All opinions, posts, moods, and tears cried are my own.
+          Hey, it's me. Welcome to my site. Head to the <Link to="/about">about page</Link> to learn a bit more about me and to connect. Visit my <Link to="/blog">blog</Link> to see my tired takes on life, development, and working at a tech company. All opinions, posts, moods, and tears cried are my own.
         </StyledText>
       </StyledSection>
     </StyledContainer>
