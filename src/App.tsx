@@ -9,7 +9,6 @@ import Home from './pages/home-page/Home';
 import Blog from './pages/blog-page/Blog';
 import Header from './components/header/Header';
 import Post from './pages/post/Post';
-import Footer from './components/footer/Footer';
 import './styles.css';
 import styled from 'styled-components';
 
@@ -24,10 +23,6 @@ const StyledHeaderContainer = styled(Header)`
 
 const StyledContentContainer = styled.div`
   flex: 1 1 auto;
-`;
-
-const StyledFooterContainer = styled(Footer)`
-  flex: 0 1 auto;
 `;
 
 function App() {
@@ -50,7 +45,6 @@ function App() {
             </Route>
           </Switch>
         </StyledContentContainer>
-        <StyledFooterContainer/>
       </Router>
     </StyledAppContainer>
   );
