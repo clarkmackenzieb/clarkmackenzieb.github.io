@@ -38,7 +38,7 @@ function App() {
         <StyledHeaderContainer useMobileLayout={useMobileLayout}/>
         <StyledContentContainer>
           <Switch>
-            <Route path="/blog/:title" children={<Post/>}/>
+            <Route path="/blog/:id" children={<Post/>}/>
             <Route path="/about">
               <About/>
             </Route>

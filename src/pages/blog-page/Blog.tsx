@@ -33,7 +33,7 @@ export default function Blog(){
   const list = postList.map((post) => {
     return (
       <StyledListItem key={post.title}>
-        <Link style={{ textDecoration: 'none'}} to={`/blog/${post.title}`}>
+        <Link style={{ textDecoration: 'none'}} to={`/blog/${post.id}`}>
           <StyledPostHeader>{post.title}</StyledPostHeader>
           <StyledText>
             {post.date}

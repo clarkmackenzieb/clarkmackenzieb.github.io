@@ -13,17 +13,26 @@ const StyledPostContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-`
+`;
+
+const StyledErrorContainer = styled.div`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
 
 export default function Post(){
-  const { title } = useParams<{ title: string }>();
+  const { id } = useParams<{ id: string }>();
 
-  if(!title){
+  if(!id){
     return renderError();
   }
 
   const postMD = postList.find((post) => {
-    return post.title === title;
+    return post.id;
   });
 
   if(!postMD){
@@ -31,9 +40,9 @@ export default function Post(){
   }
 
   return(
-    <StyledPostContainer>
+    <StyledErrorContainer>
       <ReactMarkdown children={postMD.markdown} remarkPlugins={[remarkGfm]}/>
-    </StyledPostContainer>
+    </StyledErrorContainer>
   );
 }
 
