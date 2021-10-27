@@ -20,7 +20,6 @@ const StyledTitle = styled.div`
 
 const StyledHeader = styled.h1`
   background-image: url(${stars});
-  background-size: cover;
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
@@ -32,7 +31,6 @@ const StyledHeader = styled.h1`
 
 const StyledBackgroundText = styled.h2`
   background-image: url(${stars});
-  background-size: cover;
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
