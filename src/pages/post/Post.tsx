@@ -3,25 +3,18 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { postList } from '../../posts/index';
-import { useParams } from 'react-router-dom'; 
+import { useParams } from 'react-router-dom';
+import { THEME_COLORS } from '../../styles/theme';
 import styled from 'styled-components';
 
 const StyledPostContainer = styled.div`
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-`;
-
-const StyledErrorContainer = styled.div`
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  margin-left: 100px;
+  width: 700px;
+  color: ${THEME_COLORS.russianViolet}
 `;
 
 export default function Post(){
@@ -40,9 +33,9 @@ export default function Post(){
   }
 
   return(
-    <StyledErrorContainer>
+    <StyledPostContainer>
       <ReactMarkdown children={postMD.markdown} remarkPlugins={[remarkGfm]}/>
-    </StyledErrorContainer>
+    </StyledPostContainer>
   );
 }
 

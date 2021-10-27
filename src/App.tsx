@@ -14,20 +14,20 @@ import './styles.css';
 import styled from 'styled-components';
 
 const StyledAppContainer = styled.div`
-display: flex;
-flex-direction: column;
-min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 `;
 const StyledHeaderContainer = styled(Header)`
-flex: 0 1 auto;
+  flex: 0 1 auto;
 `;
 
 const StyledContentContainer = styled.div`
-flex: 1 1 auto;
+  flex: 1 1 auto;
 `;
 
 const StyledFooterContainer = styled(Footer)`
-flex: 0 1 auto;
+  flex: 0 1 auto;
 `;
 
 function App() {
