@@ -9,7 +9,7 @@ That word filled my head. All the work I was putting in, all the effort, all the
 
 Any worker can become burnt out. But I believe bootcamp graduates are more succeptible. I'm sure I'm not the only bootcamp graduate who fell into the same trap. It's inevitable that tech teams are going to hire on bootcampers that either feel like they need to prove their worth as a developer or get too invested in the brand new field. How can team leaders catch burn out before it catches their team?
 
-## Understand warning signs
+## Look for warning signs
 Burnt out. BURNT OUT. Those are the big buzzwords. But there's a mountain of problems that start before that. Mental health is still very stigmatized, so how do you address it? Have biweekly check ins. Your dev may not feel comfortable spilling that, hey, they're going to therapy, or, hey, I'm working from my bed because I don't want to move, but if you can gear your questions to focus on work happiness, you might be surprised at what you here. Does the dev sound disinterested? Are their replies uncharacteristically short? Bootcamp graduates sometimes have a "fake it till you make it" policy, so it's up to you to build repoire and a level of trust with your dev. It takes a lot of strength to say you're not okay, and with the pressure bootcamp grads can be put under, it's even harder.
 
 ## Start with understanding
