@@ -29,7 +29,7 @@ const StyledHeader = styled.h1`
   margin: 10px 0;
 `
 
-const StyledBackgroundText = styled.p`
+const StyledBackgroundText = styled.h2`
   background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
   background-size: cover;
   color: transparent;
@@ -40,6 +40,7 @@ const StyledBackgroundText = styled.p`
   line-height: .75;
   margin: 10px 0;
   font-weight: bold;
+  padding-top: 4px;
 `
 
 const StyledContainer = styled.div`
