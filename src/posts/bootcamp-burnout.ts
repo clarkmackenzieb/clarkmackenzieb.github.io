@@ -30,7 +30,7 @@ There's no perfect solution to burnout. In an information-dense world shaken by 
 const bootcampBurnout = {
   markdown,
   desc: 'In 2017, I graduated from a bootcamp. Then I was employed. Then I was burnt out. How can we save bootcamp graduates from this fate?',
-  date: 'fill in date when post complete',
+  date: '2021/10/26',
   title: 'Bootcamp Burnout',
   id: 1,
 };
