@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from "react-router-dom";
 import { THEME_COLORS } from '../../styles/theme';
 import selfie from '../../pics/placeholder.png';
+import stars from '../../pics/starry-gif.gif';
 
 const StyledTitle = styled.div`
   text-align: center;
@@ -18,7 +19,7 @@ const StyledTitle = styled.div`
 `
 
 const StyledHeader = styled.h1`
-  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  background-image: url(${stars});
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
@@ -30,7 +31,7 @@ const StyledHeader = styled.h1`
 `
 
 const StyledBackgroundText = styled.h2`
-  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  background-image: url(${stars});
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
