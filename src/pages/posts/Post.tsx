@@ -2,9 +2,9 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { postList } from '../../posts/index';
 import { useParams } from 'react-router-dom';
 import { THEME_COLORS } from '../../styles/theme';
+import { PostItem } from '../../types';
 import styled from 'styled-components';
 
 const StyledPostContainer = styled.div`
@@ -17,7 +17,11 @@ const StyledPostContainer = styled.div`
   color: ${THEME_COLORS.russianViolet}
 `;
 
-export default function Post(){
+interface PostProps {
+  postList: PostItem[];
+}
+
+export default function Post({ postList }: PostProps){
   const { id } = useParams<{ id: string }>();
 
   if(!id){

@@ -57,6 +57,11 @@ export default function Header({ useMobileLayout }:{ useMobileLayout: boolean })
             </Link>
           </StyledListItem>
           <StyledListItem>
+            <Link to="/reference" style={{ textDecoration: 'none'}}>
+              <StyledText>Reference</StyledText>
+            </Link>
+          </StyledListItem>
+          <StyledListItem>
             <Link to="/blog" style={{ textDecoration: 'none'}}>
               <StyledText>Blog</StyledText>
             </Link>

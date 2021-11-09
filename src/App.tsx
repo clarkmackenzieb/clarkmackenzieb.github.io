@@ -7,10 +7,13 @@ import {
 import About from './pages/about-page/About';
 import Home from './pages/home-page/Home';
 import Blog from './pages/blog-page/Blog';
+import Post from './pages/posts/Post';
+import Reference from './pages/reference-page/Reference';
 import Header from './components/header/Header';
-import Post from './pages/post/Post';
 import './styles.css';
 import styled from 'styled-components';
+import blogPosts from './pages/blog-page/blog-posts/index';
+import referencePosts from './pages/reference-page/reference-posts/index';
 
 const StyledAppContainer = styled.div`
   display: flex;
@@ -33,9 +36,13 @@ function App() {
         <StyledHeaderContainer useMobileLayout={useMobileLayout}/>
         <StyledContentContainer>
           <Switch>
-            <Route path="/blog/:id" children={<Post/>}/>
+            <Route path="/blog/:id" children={<Post postList={blogPosts}/>}/>
+            <Route path="/reference/:id" children={<Post postList={referencePosts} />}/>
             <Route path="/about">
               <About/>
+            </Route>
+            <Route path="/reference">
+              <Reference/>
             </Route>
             <Route path="/blog">
               <Blog/>
