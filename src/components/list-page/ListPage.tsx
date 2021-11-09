@@ -42,7 +42,6 @@ export default function ListPage({
   if(postList && postList.length === 0){
     return renderZeroState();
   }
-  console.log("link", link)
   const list = postList.map((post) => {
     return (
       <StyledListItem key={post.title}>
