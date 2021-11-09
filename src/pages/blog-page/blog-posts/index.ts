@@ -1,8 +1,8 @@
-import bootcampBurnout from "./bootcamp-burnout";
+import test from "./test";
 import { PostItem } from "../../../types";
 
 const postList: PostItem[] = [
-  bootcampBurnout,
+  test,
 ];
 
 export default postList;
