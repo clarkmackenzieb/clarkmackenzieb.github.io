@@ -1,6 +1,5 @@
 import React from 'react';
 import linkedIn from './icons/linkedin.png'
-import { Link } from "react-router-dom";
 import octocat from './icons/octocat.png'
 import twitterBird from './icons/twitter.svg';
 import { GRAYS } from '../../styles/theme';
