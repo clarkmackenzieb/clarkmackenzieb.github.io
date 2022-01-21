@@ -45,6 +45,11 @@ const StyledImg = styled.img`
   width: 400px;
 `
 
+const StyledImgContainer = styled.div`
+  height: auto;
+  width: 400px;
+`
+
 
 export default function Home(){
   return(
@@ -58,7 +63,9 @@ export default function Home(){
           UI Engineer. Accessibility Advocate. React Connoisseur. Typo Queen.
         </StyledBackgroundText>
       </StyledTitle>
+      <StyledImgContainer>
         <StyledImg src={selfie} alt=""/>
+      </StyledImgContainer>
       All opinions, posts, moods are my own.
     </StyledContainer>
   );
