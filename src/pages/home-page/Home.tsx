@@ -5,22 +5,16 @@ import { THEME_COLORS } from '../../styles/theme';
 
 const StyledTitle = styled.div`
   text-align: center;
-  color: #FFF;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 1px;
-  margin-bottom: 30px;
-  height: 200px;
 `
 
 const StyledHeader = styled.h1`
   text-transform: uppercase;
-  font-size: 120px;
-  margin: 10px 0;
+  font-size: 100px;
   color: ${THEME_COLORS.pink};
-`
+  margin: 0px;
+`;
 
 const StyledBackgroundText = styled.h2`
   text-transform: uppercase;
@@ -38,12 +32,12 @@ const StyledContainer = styled.div`
   justify-contents: center;
   align-items: center;
   color: ${THEME_COLORS.pink};
+  padding: 15px;
 `
 
 const StyledSection = styled.div`
   width: 50%;
   text-align: center;
-  margin-top: 30px;
 `;
 
 const StyledImg = styled.img`
