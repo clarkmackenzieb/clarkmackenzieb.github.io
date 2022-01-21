@@ -14,7 +14,8 @@ const StyledPostContainer = styled.div`
   flex-direction: column;
   margin-left: 100px;
   width: 700px;
-  color: ${THEME_COLORS.pink}
+  color: ${THEME_COLORS.pink};
+  padding-bottom: 15px;
 `;
 
 interface PostProps {
