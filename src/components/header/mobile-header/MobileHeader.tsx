@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { THEME_COLORS } from '../../../styles/theme';
 
 const StyledHeader = styled.div`
-  background-color: ${THEME_COLORS.russianViolet};
+  background-color: ${THEME_COLORS.pink};
   display: flex;
   flexDirection: row;
   align-items: center;

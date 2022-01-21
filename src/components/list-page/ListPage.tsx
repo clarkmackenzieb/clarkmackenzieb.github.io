@@ -9,7 +9,7 @@ const StyledContainer = styled.div`
   flex-direction: column;
   margin-left: 100px;
   width: 700px;
-  color: ${THEME_COLORS.russianViolet}
+  color: ${THEME_COLORS.pink}
 `;
 
 const StyledListItem = styled.li`
@@ -18,11 +18,11 @@ const StyledListItem = styled.li`
 
 const StyledPostHeader = styled.h2`
   font-size: 24px;
-  color: ${THEME_COLORS.russianViolet};
+  color: ${THEME_COLORS.pink};
 `;
 
 const StyledText = styled.p`
-  color: ${THEME_COLORS.russianViolet};
+  color: ${THEME_COLORS.pink};
   font-size: 18px;
 `;
 
