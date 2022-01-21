@@ -86,6 +86,11 @@ export default function Header({ useMobileLayout }:{ useMobileLayout: boolean })
               <StyledText>Blog</StyledText>
             </Link>
           </StyledListItem>
+          <StyledListItem active={ROUTES.todo === location.pathname}>
+            <Link to={ROUTES.todo} style={{ textDecoration: 'none'}}>
+              <StyledText>To do list</StyledText>
+            </Link>
+          </StyledListItem>
         </StyledList>
      </StyledNav>
     </StyledHeader>

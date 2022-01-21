@@ -11,4 +11,5 @@ export const ROUTES = {
   about: '/about',
   reference: '/reference',
   blog: '/blog',
+  todo: '/todo',
 }

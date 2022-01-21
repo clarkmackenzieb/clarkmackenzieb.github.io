@@ -26,7 +26,7 @@ export default function About(){
         I love polishing the look and feel of a website, from the top-level flow and animation to the nitty-gritty optimization. I'm especially interested in creating an amazing experience for disabled users, whether that means working with product at the beginning of a feature, or going back to legacy code and updating it.
       </StyledText>
       <StyledText>
-        I need structure and organization within my code and work process. If you looked at the three coffee mugs on my desk and the perpetual messy bun I rock, you'd call me a liar. But despite my disorganized desk, I strive to create a workplace with open communication, realistic timelines, good quality code. And I need that structure, because... 
+        I need structure and organization within my code and work process. If you looked at the three coffee mugs on my desk and the perpetual messy bun I rock, you'd call me a liar. But despite my disorganized desk, I strive to create a workplace with open communication, realistic timelines, and good quality code. And I need that structure, because... 
       </StyledText>
       <StyledText>
         I'm a bit of a dork. I love getting up to workplace shenanigans. I remember during a project with long hours and staying late, I "borrowed" a skeleton from the Halloween decorations HR set up and set it in my boss's chair, plastic chairs and empty liquor bottle and everything. It's still his slack picture to this day. I set up a t-shirt spinner (with e-confetti!) for biweekly meetings, and the chosen team member won a silly red bubble shirt. I thrive in teams that don't take life too seriously.

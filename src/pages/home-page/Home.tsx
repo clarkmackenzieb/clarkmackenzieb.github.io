@@ -59,7 +59,7 @@ export default function Home(){
         </StyledBackgroundText>
       </StyledTitle>
         <StyledImg src={selfie} alt=""/>
-      All opinions, posts, moods, and tears cried are my own.
+      All opinions, posts, moods are my own.
     </StyledContainer>
   );
 }

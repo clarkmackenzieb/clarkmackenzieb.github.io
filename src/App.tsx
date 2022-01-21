@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import About from './pages/about-page/About';
+import ToDo from './pages/to-do-page/ToDo';
 import Home from './pages/home-page/Home';
 import Blog from './pages/blog-page/Blog';
 import Post from './pages/posts/Post';
@@ -53,6 +54,9 @@ function App() {
             </Route>
             <Route path="/blog">
               <Blog/>
+            </Route>
+            <Route path="/todo">
+              <ToDo/>
             </Route>
             <Route path="/">
               <Home/>
