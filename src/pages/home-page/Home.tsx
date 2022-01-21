@@ -11,14 +11,14 @@ const StyledTitle = styled.div`
 
 const StyledHeader = styled.h1`
   text-transform: uppercase;
-  font-size: 100px;
+  font-size: 120px;
   color: ${THEME_COLORS.pink};
   margin: 0px;
 `;
 
 const StyledBackgroundText = styled.h2`
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 20px;
   line-height: .75;
   margin: 10px 0;
   font-weight: bold;
@@ -38,16 +38,17 @@ const StyledContainer = styled.div`
 const StyledSection = styled.div`
   width: 50%;
   text-align: center;
+  font-size: 20px;
 `;
 
 const StyledImg = styled.img`
-  height: auto;
-  width: 400px;
+  height: 550px;
+  width: auto;
 `
 
 const StyledImgContainer = styled.div`
-  height: auto;
-  width: 400px;
+  height: 550px;
+  width: auto;
 `
 
 
