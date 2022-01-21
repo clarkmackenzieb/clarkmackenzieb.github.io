@@ -10,6 +10,7 @@ import Blog from './pages/blog-page/Blog';
 import Post from './pages/posts/Post';
 import Reference from './pages/reference-page/Reference';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 import './styles.css';
 import styled from 'styled-components';
 import blogPosts from './pages/blog-page/blog-posts/index';
@@ -22,7 +23,7 @@ const StyledAppContainer = styled.div`
   min-height: 100vh;
   background-color: ${GRAYS[900]};
 `;
-const StyledHeaderContainer = styled(Header)`
+const StyledHeader = styled(Header)`
   flex: 0 1 auto;
 `;
 
@@ -30,12 +31,16 @@ const StyledContentContainer = styled.div`
   flex: 1 1 auto;
 `;
 
+const StyledFooter = styled(Footer)`
+flex: 0 1 auto;
+`;
+
 function App() {
   const useMobileLayout = window && window.innerWidth < 500;
   return (
     <StyledAppContainer>
       <Router>
-        <StyledHeaderContainer useMobileLayout={useMobileLayout}/>
+        <StyledHeader useMobileLayout={useMobileLayout}/>
         <StyledContentContainer>
           <Switch>
             <Route path="/blog/:id" children={<Post postList={blogPosts}/>}/>
@@ -54,6 +59,7 @@ function App() {
             </Route>
           </Switch>
         </StyledContentContainer>
+        <StyledFooter/>
       </Router>
     </StyledAppContainer>
   );
