@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "https://clarkmackenzieb.github.io/static/css/main.80c8c6cc.chunk.css",
-    "main.js": "https://clarkmackenzieb.github.io/static/js/main.cb334a25.chunk.js",
-    "main.js.map": "https://clarkmackenzieb.github.io/static/js/main.cb334a25.chunk.js.map",
+    "main.css": "https://clarkmackenzieb.github.io/static/css/main.1869e43d.chunk.css",
+    "main.js": "https://clarkmackenzieb.github.io/static/js/main.59c8e58f.chunk.js",
+    "main.js.map": "https://clarkmackenzieb.github.io/static/js/main.59c8e58f.chunk.js.map",
     "runtime-main.js": "https://clarkmackenzieb.github.io/static/js/runtime-main.2e15a18c.js",
     "runtime-main.js.map": "https://clarkmackenzieb.github.io/static/js/runtime-main.2e15a18c.js.map",
-    "static/js/2.07406ecc.chunk.js": "https://clarkmackenzieb.github.io/static/js/2.07406ecc.chunk.js",
-    "static/js/2.07406ecc.chunk.js.map": "https://clarkmackenzieb.github.io/static/js/2.07406ecc.chunk.js.map",
+    "static/js/2.00079d26.chunk.js": "https://clarkmackenzieb.github.io/static/js/2.00079d26.chunk.js",
+    "static/js/2.00079d26.chunk.js.map": "https://clarkmackenzieb.github.io/static/js/2.00079d26.chunk.js.map",
     "index.html": "https://clarkmackenzieb.github.io/index.html",
-    "static/css/main.80c8c6cc.chunk.css.map": "https://clarkmackenzieb.github.io/static/css/main.80c8c6cc.chunk.css.map",
-    "static/js/2.07406ecc.chunk.js.LICENSE.txt": "https://clarkmackenzieb.github.io/static/js/2.07406ecc.chunk.js.LICENSE.txt",
-    "static/media/starry-gif.bec3a753.gif": "https://clarkmackenzieb.github.io/static/media/starry-gif.bec3a753.gif"
+    "static/css/main.1869e43d.chunk.css.map": "https://clarkmackenzieb.github.io/static/css/main.1869e43d.chunk.css.map",
+    "static/js/2.00079d26.chunk.js.LICENSE.txt": "https://clarkmackenzieb.github.io/static/js/2.00079d26.chunk.js.LICENSE.txt",
+    "static/media/kenzie-couch.5c3e716f.png": "https://clarkmackenzieb.github.io/static/media/kenzie-couch.5c3e716f.png",
+    "static/media/kenzie-icon1.41347bf9.png": "https://clarkmackenzieb.github.io/static/media/kenzie-icon1.41347bf9.png",
+    "static/media/octocat.363cb5ed.png": "https://clarkmackenzieb.github.io/static/media/octocat.363cb5ed.png",
+    "static/media/twitter.8097ca9d.svg": "https://clarkmackenzieb.github.io/static/media/twitter.8097ca9d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2e15a18c.js",
-    "static/js/2.07406ecc.chunk.js",
-    "static/css/main.80c8c6cc.chunk.css",
-    "static/js/main.cb334a25.chunk.js"
+    "static/js/2.00079d26.chunk.js",
+    "static/css/main.1869e43d.chunk.css",
+    "static/js/main.59c8e58f.chunk.js"
   ]
 }
