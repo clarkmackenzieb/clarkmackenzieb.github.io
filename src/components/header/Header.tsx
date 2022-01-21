@@ -55,7 +55,6 @@ const StyledIconContainer = styled.div`
 
 export default function Header({ useMobileLayout }:{ useMobileLayout: boolean }){
   const location = useLocation();
-  console.log("Header -> location", location)
   if (useMobileLayout) {
     return <MobileHeader/>
   }
