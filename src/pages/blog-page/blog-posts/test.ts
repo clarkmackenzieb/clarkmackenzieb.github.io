@@ -7,7 +7,7 @@ const test = {
   desc: 'test',
   date: 'test',
   title: 'test',
-  id: 1,
+  id: 'test',
 };
 
 export default test;

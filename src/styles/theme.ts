@@ -1,19 +1,19 @@
 export const THEME_COLORS = {
-  bdazzledBlue: '#455E89',
-  sapphireBlue: '#2E6F95',
-  cgBlue: '#1780A1',
-  blueMunsel: '#0091AD',
-  cyberGrape: '#5C4D7D',
-  palatinatePurple: '#723C70',
-  amaranthMP: '#892B64',
-  jazzberryJam: '#A01A58',
-  amanranthPurple: '#B7094C',
-  claret:"#660329",
-  tyrianPurple:"#590a2f",
-  tyrianPurple2:"#501037",
-  russianViolet:"#481646",
-  russianViolet2:"#2d1d52",
-  spaceCadet:"#192f55",
-  indigoDye:"#113e58"
-  ,midnightGreenEagleGreen:"#08485b",
-  midnightGreenEagleGreen2:"#004e5e"}
+  blue: '#042c4f',
+  pink: '#f59cba',
+  teal: '#4bdbc4',
+  purple: '#bb86fc',
+}
+
+export const GRAYS = {
+  900: '#27241D',
+  800: '#423D33',
+  700: '#504A40',
+  600: '#625D52',
+  500: '#857F72',
+  400: '#A39E39',
+  300: '#B8B2A7',
+  200: '#D3CEC4',
+  100: '#E8E6E1',
+  50: '#FAF9F7',
+}

@@ -8,7 +8,7 @@ const StyledContainer = styled.div`
   justify-contents: center;
   margin-left: 100px;
   width: 700px;
-  color: ${THEME_COLORS.russianViolet}
+  color: ${THEME_COLORS.pink}
 `;
 
 const StyledText = styled.p`

@@ -14,11 +14,13 @@ import './styles.css';
 import styled from 'styled-components';
 import blogPosts from './pages/blog-page/blog-posts/index';
 import referencePosts from './pages/reference-page/reference-posts/index';
+import { GRAYS } from './styles/theme';
 
 const StyledAppContainer = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: ${GRAYS[900]};
 `;
 const StyledHeaderContainer = styled(Header)`
   flex: 0 1 auto;

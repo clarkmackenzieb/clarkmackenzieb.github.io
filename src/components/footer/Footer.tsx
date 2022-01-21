@@ -2,7 +2,7 @@ import React from 'react';
 import linkedInIcon from './icons/LinkedIn.png'
 import { Link } from "react-router-dom";
 import octocat from './icons/Octocat.png'
-import { THEME_COLORS } from '../../styles/theme';
+import { THEME_COLORS, GRAYS } from '../../styles/theme';
 import styled from 'styled-components';
 
 const StyledImage = styled.img`
@@ -18,7 +18,7 @@ const StyledContainer = styled.div`
 `
 
 const StyledText = styled.p`
-  color: ${THEME_COLORS.russianViolet};
+  color: ${THEME_COLORS.pink};
   font-size: 18px;
   font-weight: bold;
   margin-left: 10px;
@@ -29,6 +29,7 @@ const StyledContentContainer = styled.div`
   flex-direction: row;
   align-items: center;
   height: 40px;
+  background-color: ${GRAYS[700]}
 `;
 
 export default function Footer(){

@@ -1,8 +1,8 @@
-import test from "./test";
+import projectPlanning from "./project-planning/projectPlanning";
 import { PostItem } from "../../../types";
 
 const postList: PostItem[] = [
-  test,
+  projectPlanning,
 ];
 
 export default postList;

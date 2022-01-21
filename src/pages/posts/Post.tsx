@@ -14,7 +14,7 @@ const StyledPostContainer = styled.div`
   flex-direction: column;
   margin-left: 100px;
   width: 700px;
-  color: ${THEME_COLORS.russianViolet}
+  color: ${THEME_COLORS.pink}
 `;
 
 interface PostProps {

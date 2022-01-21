@@ -7,7 +7,7 @@ const interval = {
   desc: "Let's walk through building a timer with useInterval, implementing the timer, and writing tests for it.",
   date: 'WIP',
   title: 'Using Interval To Make a Timer',
-  id: 2,
+  id: 'intervals',
 };
 
 export default interval;

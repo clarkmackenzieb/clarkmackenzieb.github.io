@@ -3,5 +3,12 @@ export interface PostItem {
   date: string;
   title: string;
   markdown: string;
-  id: number;
+  id: string;
+}
+
+export const ROUTES = {
+  home: '/',
+  about: '/about',
+  reference: '/reference',
+  blog: '/blog',
 }
