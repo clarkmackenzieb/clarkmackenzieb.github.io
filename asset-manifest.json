@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://clarkmackenzieb.github.io/static/css/main.1869e43d.chunk.css",
+    "main.css": "https://clarkmackenzieb.github.io/static/css/main.a08db3f7.chunk.css",
     "main.js": "https://clarkmackenzieb.github.io/static/js/main.365cef7f.chunk.js",
     "main.js.map": "https://clarkmackenzieb.github.io/static/js/main.365cef7f.chunk.js.map",
     "runtime-main.js": "https://clarkmackenzieb.github.io/static/js/runtime-main.2e15a18c.js",
@@ -8,7 +8,7 @@
     "static/js/2.00079d26.chunk.js": "https://clarkmackenzieb.github.io/static/js/2.00079d26.chunk.js",
     "static/js/2.00079d26.chunk.js.map": "https://clarkmackenzieb.github.io/static/js/2.00079d26.chunk.js.map",
     "index.html": "https://clarkmackenzieb.github.io/index.html",
-    "static/css/main.1869e43d.chunk.css.map": "https://clarkmackenzieb.github.io/static/css/main.1869e43d.chunk.css.map",
+    "static/css/main.a08db3f7.chunk.css.map": "https://clarkmackenzieb.github.io/static/css/main.a08db3f7.chunk.css.map",
     "static/js/2.00079d26.chunk.js.LICENSE.txt": "https://clarkmackenzieb.github.io/static/js/2.00079d26.chunk.js.LICENSE.txt",
     "static/media/kenzie-couch.5c3e716f.png": "https://clarkmackenzieb.github.io/static/media/kenzie-couch.5c3e716f.png",
     "static/media/kenzie-icon1.41347bf9.png": "https://clarkmackenzieb.github.io/static/media/kenzie-icon1.41347bf9.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.2e15a18c.js",
     "static/js/2.00079d26.chunk.js",
-    "static/css/main.1869e43d.chunk.css",
+    "static/css/main.a08db3f7.chunk.css",
     "static/js/main.365cef7f.chunk.js"
   ]
 }
