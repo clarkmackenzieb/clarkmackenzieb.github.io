@@ -11,7 +11,7 @@ People joke about googling being half of a dev's job, but it's really about bein
 Get comfortable with asking questions, but make sure you're asking _good_ questions. Be as specific as you can. Include screenshots, errors, and what you want your end result to be. Make sure you always try solving things yourself before asking for help, but don't get into a timesink. It doesn't matter if you solved a bug yourself if it took six hours. The benefit of asking questions is it's often one of the best ways to learn on the job.
 
 ## Tech Culture and Disconnecting
-Find communities and friendships, but don't make your entire life tech. That's a one-way ticket to burnout, especially on twitter/other social media apps where it's easy to surround yourself with your work. Remove the term "work hard, play hard" from your mind. Set boundaries. Limit (work) screen time. Snooze slack from 5-9, or outside whatever your work horus are. By the time you realize you've burnt out, it's often too late.
+Find communities and friendships, but don't make your entire life tech. That's a one-way ticket to burnout, especially on twitter/other social media apps where it's easy to surround yourself with your work. Remove the term "work hard, play hard" from your mind. Set boundaries. Limit (work) screen time. Snooze slack from 5-9, or outside whatever your work hours are. By the time you realize you've burnt out, it's often too late.
 
 ## Work Outside the Keyboard
 Software development cycles are just as important as coding skills. Learn about AGILE or waterfall. Learn which stragegy works better for different teams or different projects. Don't tie yourself to one.
